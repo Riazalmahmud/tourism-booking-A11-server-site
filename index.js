@@ -59,7 +59,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Hello Booking website i am ready !')
+    res.send('Hello')
 })
 
 app.listen(port, () => {
